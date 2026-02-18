@@ -1,0 +1,16 @@
+[package]
+name = "craftvfs"
+version = "0.1.0"
+edition = "2021"
+description = "CraftVFS — Distributed filesystem built on CraftSQL"
+license = "MIT"
+repository = "https://github.com/craft-ec/craftvfs"
+
+[dependencies]
+craftsql-core = { path = "../craftsql/crates/core" }
+craftsql-vfs = { path = "../craftsql/crates/vfs" }
+rusqlite = "0.32"
+thiserror = "2.0"
+
+[dev-dependencies]
+craftsql-store-local = { path = "../craftsql/crates/store-local" }
