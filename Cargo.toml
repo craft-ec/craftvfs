@@ -9,7 +9,7 @@ repository = "https://github.com/craft-ec/craftvfs"
 [dependencies]
 craftsql-core = { path = "../craftsql/crates/core" }
 craftsql-vfs = { path = "../craftsql/crates/vfs" }
-rusqlite = "0.32"
+rusqlite = "0.35"
 thiserror = "2.0"
 
 [dev-dependencies]
